@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(./memory/**)",
+      "Write(./memory/**)",
+      "Edit(./memory/**)",
+      "Delete(./memory/**)",
+      "Bash(mkdir ./memory/**)",
+      "Bash(ls ./memory/**)",
+      "Bash(cat ./memory/**)"
+    ]
+  }
+}
