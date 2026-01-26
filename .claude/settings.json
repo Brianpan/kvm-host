@@ -9,5 +9,15 @@
       "Bash(ls ./memory/**)",
       "Bash(cat ./memory/**)"
     ]
-  }
+  },
+  "mcpServers": {
+        "lwn-feed": {
+            "type": "stdio",
+            "command": "/Users/ppan/projects/lwn_feed/lwn_feed",
+            "args": ["-c", "/Users/ppan/projects/lwn_feed/config.yaml"],
+            "env": {
+                "DEBUG": "true"
+            }
+        }
+    }
 }
